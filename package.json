@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqmalakur/iqmalakur.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqmalakur/iqmalakur.github.io/issues"
+  },
+  "homepage": "https://github.com/iqmalakur/iqmalakur.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

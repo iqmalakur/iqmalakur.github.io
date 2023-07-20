@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html id="home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>IQMAL AKBAR KURNIA</title>
+
+    <link href="/css/style.css" rel="stylesheet" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Playfair Display Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Inter Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-[1000px]">
+    <!-- Navbar -->
+    <nav
+      class="nav fixed w-full sm:h-auto z-20 top-0 left-0 sm:px-12 px-6 sm:py-6 py-4 flex flex-wrap justify-between items-start sm:items-center shadow-sm bg-transparent"
+    >
+      <a href="/">
+        <img
+          src="img/akurlogo_light.jpg"
+          class="h-10 md:h-14 rounded-full"
+          alt="AKUR Logo"
+        />
+      </a>
+      <ul
+        class="nav-links text-white order-2 sm:order-3 md:order-2 hidden sm:flex justify-center items-center"
+      >
+        <li class="nav-link"><a href="#home">Beranda</a></li>
+        <li class="nav-link"><a href="#about">Tentang Saya</a></li>
+        <li class="nav-link"><a href="#skill">Keahlian</a></li>
+        <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
+      </ul>
+      <div
+        class="flex justify-center items-center order-3 sm:order-2 md:order-3"
+      >
+        <div
+          class="hamburger-menu cursor-pointer p-2 rounded-sm block sm:hidden"
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line my-2"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="bg-gradient-to-b from-black to-primary w-full h-[600px] flex justify-center items-center overflow-hidden relative"
+    >
+      <img
+        src="assets/Left Ellipse.png"
+        class="absolute -bottom-36 left-0 w-56 sm:w-64 md:w-max"
+      />
+      <img
+        src="assets/Right Ellipse.png"
+        class="absolute top-0 right-0 w-56 sm:w-64 md:w-max"
+      />
+      <div class="text-center">
+        <h2 class="text-yellow-400 text-sm sm:text-base md:text-xl font-inter">
+          Halo Semua 👋 Saya
+        </h2>
+        <h1
+          class="text-white my-2 sm:my-3 text-3xl sm:text-5xl md:text-6xl font-playfair font-bold"
+        >
+          IQMAL AKBAR KURNIA
+        </h1>
+        <h2 class="text-slate-400 text-sm sm:text-base md:text-xl font-inter">
+          Mahasiswa Informatika
+        </h2>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
