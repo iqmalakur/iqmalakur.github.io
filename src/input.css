@@ -105,18 +105,22 @@
   }
 
   .card .caption h3 {
-    @apply text-slate-100 text-xl lg:text-2xl font-bold mb-3;
+    @apply text-slate-100 text-xl lg:text-2xl font-bold mb-1;
+  }
+
+  .card .caption h4 {
+    @apply text-slate-100 text-base lg:text-lg font-bold mb-1;
   }
 
   .card .caption p {
-    @apply text-white text-base md:text-sm lg:text-base mb-8;
+    @apply text-white text-base md:text-sm lg:text-base mb-5;
   }
 
   .card .caption a {
-    @apply text-white inline-block my-2 px-3 py-2 rounded;
+    @apply text-white inline-block my-2 px-3 py-2 shadow hover:shadow-md rounded;
   }
 
-  .card .caption .btn-demo {
+  .card .caption .btn-live {
     @apply bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 mr-4;
   }
 
