@@ -50,9 +50,10 @@ document.querySelectorAll('.card img').forEach((img) => {
   img.addEventListener('click', () => {
     document.querySelector('.lightbox-container').classList.add('active');
     document.querySelector('.lightbox-content').classList.add('active');
-    document
-      .querySelector('.lightbox-content img')
-      .setAttribute('src', img.getAttribute('src'));
+
+    const lightboxImg = document.querySelector('.lightbox-content img');
+    lightboxImg.setAttribute('src', img.getAttribute('src'));
+    lightboxImg.setAttribute('alt', img.getAttribute('alt'));
   });
 });
 
