@@ -44,3 +44,23 @@ sosmed.forEach((s) => {
     s.querySelector('path').setAttribute('fill', '#cbd5e1')
   );
 });
+
+// Lightbox
+document.querySelectorAll('.card img').forEach((img) => {
+  img.addEventListener('click', () => {
+    document.querySelector('.lightbox-container').classList.add('active');
+    document.querySelector('.lightbox-content').classList.add('active');
+    document
+      .querySelector('.lightbox-content img')
+      .setAttribute('src', img.getAttribute('src'));
+  });
+});
+
+document.querySelectorAll('.lightbox-container').forEach((lightbox) => {
+  lightbox.addEventListener('click', () => {
+    lightbox.querySelector('.lightbox-content').classList.remove('active');
+    setTimeout(() => {
+      lightbox.classList.remove('active');
+    }, 250);
+  });
+});
