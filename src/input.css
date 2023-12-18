@@ -229,7 +229,7 @@
   }
 
   .lightbox-content img {
-    @apply w-[90%] border border-slate-100 rounded-sm cursor-zoom-out;
+    @apply h-[90%] border border-slate-100 rounded-sm cursor-zoom-out;
   }
 
   .lightbox-container.active {
