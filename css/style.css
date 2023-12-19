@@ -1272,12 +1272,20 @@ header h2 {
 }
 
 .lightbox-content img {
-  height: 90%;
+  height: auto;
+  width: 90%;
   cursor: zoom-out;
   border-radius: 0.125rem;
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(241 245 249 / var(--tw-border-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lightbox-content img {
+    height: 90%;
+    width: auto;
+  }
 }
 
 .lightbox-container.active {
