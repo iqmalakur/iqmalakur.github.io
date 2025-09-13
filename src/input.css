@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2c78a4;
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
 
 @layer base {
   /* Background */

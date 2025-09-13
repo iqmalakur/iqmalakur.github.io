@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./css/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/iqmalakur/iqmalakur.github.io#readme",
   "devDependencies": {
-    "tailwindcss": "^3.3.3"
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
   },
   "dependencies": {
     "caniuse-lite": "^1.0.30001570"
