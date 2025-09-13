@@ -214,11 +214,11 @@
   }
 
   .card .caption .btn-live {
-    @apply bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 mr-4;
+    @apply bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 mx-1;
   }
 
   .card .caption .btn-github {
-    @apply bg-slate-600 hover:bg-slate-700 active:bg-slate-800;
+    @apply bg-slate-600 hover:bg-slate-700 active:bg-slate-800 mx-1;
   }
 
   .lightbox-container {
